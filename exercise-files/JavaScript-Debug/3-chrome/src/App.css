@@ -1,0 +1,52 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 80px;
+}
+
+.App-header {
+	background: linear-gradient(270deg, #373277, #4e44d6);
+	height: 150px;
+	padding: 20px;
+	color: white;
+}
+
+.App-title {
+	font-size: 1.5em;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+button {
+	display: table;
+	width: 50%;
+	padding: 3rem;
+	font-size: 3rem;
+	border: none;
+	margin: 3rem auto;
+	cursor: pointer;
+	outline: 0;
+	color: #ffffff;
+	background: linear-gradient(270deg, #373277, #4e44d6);
+	box-shadow: 0 0 5rem #242526;
+	transition: all 0.6s ease-in;
+}
+
+button:hover {
+	transition: all 0.6s ease-in;
+	background: linear-gradient(270deg, #4e44d6, #373277);
+}

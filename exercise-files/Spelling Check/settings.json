@@ -1,0 +1,14 @@
+{
+    // SPELLINGS —————————————————————————————————
+    "spellright.documentTypes": [
+        "plaintext",
+        "markdown",
+        "latex",
+        "html",
+        "jade",
+        "pug",
+        "css",
+        "php",
+        "javascript"
+    ],
+}
